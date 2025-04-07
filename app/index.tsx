@@ -2,12 +2,11 @@
 import { Text, View } from 'react-native'
 
 const CalculatorApp = () => {
-    return
-    (
+    return (
         <View>
-            <Text>CalculatorApp</Text>
+            <Text style={{ fontSize: 40, fontFamily: 'SpaceMono' }}>CalculatorApp</Text>
         </View>
-    )
+    );
 }
 
 export default CalculatorApp
